@@ -1,8 +1,7 @@
 import styled from "styled-components";
 import Logo from "./Logo";
 import MainNav from "./MainNav";
-
-import Uploader from "../data/Uploader";
+// import Uploader from "../data/Uploader";
 
 // 335. Building the App Layout
 const StyledSidebar = styled.aside`

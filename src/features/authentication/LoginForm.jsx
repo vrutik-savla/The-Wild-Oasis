@@ -8,8 +8,8 @@ import { useLogin } from "./useLogin";
 
 // 389. Authentication: User Login With Supabase
 function LoginForm() {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("vrutik@example.com");
+  const [password, setPassword] = useState("password");
   const { login, isLoading } = useLogin();
 
   function handleSubmit(e) {
@@ -38,7 +38,8 @@ function LoginForm() {
           autoComplete="username"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          disabled={isLoading}
+          // disabled={isLoading}
+          disabled
         />
       </FormRowVertical>
       <FormRowVertical label="Password">
@@ -48,7 +49,8 @@ function LoginForm() {
           autoComplete="current-password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          disabled={isLoading}
+          // disabled={isLoading}
+          disabled
         />
       </FormRowVertical>
       <FormRowVertical>
