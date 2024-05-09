@@ -1,6 +1,12 @@
 # The Wild Oasis
 
-The Wild Oasis is Restaurant Management Application built with the help of React Library.<br>
-I have used supabase for database. I have also used React Query for managing global remote state & global UI state is managed through ContextAPI.<br>
-However, some CRUD operations have been disabled in application.
+The Wild Oasis is Hotel Management Application built with the help of React Library.<br>
+Technologies Used:<br>
+
+- Styled Components for managing CSS<br>
+- Supabase for database.<br>
+- React Query (tanstack) for managing global remote state & for efficiently handling data fetching.<br>
+- ContextAPI for managing global UI state<br>
+
+However, some CRUD operations have been disabled in application.<br>
 Project URL: https://the-wild-oasis-vrutik.netlify.app/
